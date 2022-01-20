@@ -1,12 +1,13 @@
 class Kiertekel {
   constructor(tomb) {
     this.tomb = tomb;
-    console.log(this.tomb);
+    /*    console.log(this.tomb); */
   }
 
   getVizszintes() {
     let ellX = "";
     this.tomb.forEach((element, index) => {
+      /*    console.log(element.ertek); */
       ellX += element.ertek;
       if (index % 3 == 2) {
         ellX += "@";
